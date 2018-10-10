@@ -1,0 +1,10 @@
+### DEV GUIDELINES MANDATED RULES
+# Force Unix-style line endings on all files to avoid cross platform gotchas
+* text eol=lf
+
+# Force files w/ known binary extensions to be treated as such
+*.png binary
+*.jpg binary
+*.gif binary
+
+### CUSTOM RULES (only use if strictly required by this repo and not generally applicable)

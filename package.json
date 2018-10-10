@@ -1,0 +1,42 @@
+{
+  "name": "sample-user-management",
+  "description": "Service responsible for user & token management",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git"
+  },
+  "license": "UNLICENSED",
+  "main": "./app/index.js",
+  "files": [
+    "app"
+  ],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "co": "^4.6.0",
+    "co-mysql": "^1.0.0",
+    "cors": "2.8.4",
+    "dotenv": "^6.0.0",
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-jsonwebtoken": "^1.3.1",
+    "koa-jwt": "^3.5.1",
+    "koa-router": "^7.4.0",
+    "mysql": "2.16.0",
+    "node-uuid": "^1.4.8",
+    "randomstring": "^1.1.5",
+    "rootpath": "^0.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.2.3",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^2.3.4",
+    "nock": "^9.0.13",
+    "should": "^9.0.2",
+    "sinon": "^1.17.7",
+    "sinon-as-promised": "^4.0.2",
+    "supertest": "^2.0.1"
+  }
+}
