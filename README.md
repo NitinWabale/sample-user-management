@@ -1,4 +1,4 @@
-# sample ID User and Token Service
+# Sample User and Token Service
 This is responsible for user management and token management.
 
 DB used is `MySQL`
