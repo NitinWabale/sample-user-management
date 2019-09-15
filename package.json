@@ -38,5 +38,11 @@
     "sinon": "^1.17.7",
     "sinon-as-promised": "^4.0.2",
     "supertest": "^2.0.1"
-  }
+  },
+  "scripts": {
+    "test": "snyk test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
