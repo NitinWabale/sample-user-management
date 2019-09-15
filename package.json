@@ -28,7 +28,7 @@
     "rootpath": "^0.1.2"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^6.4.0",
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-react": "^4.2.3",
     "istanbul": "^1.1.0-alpha.1",
@@ -38,11 +38,5 @@
     "sinon": "^1.17.7",
     "sinon-as-promised": "^4.0.2",
     "supertest": "^2.0.1"
-  },
-  "scripts": {
-    "test": "snyk test",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
-  },
-  "snyk": true
+  }
 }
